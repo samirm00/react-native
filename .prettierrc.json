@@ -1,0 +1,25 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": ["*.html", "*.css", "*.js", "*.ts", "*.jsx", "*.tsx"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    },
+    {
+      "files": ["*.md"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "printWidth": 100
+      }
+    }
+  ]
+}

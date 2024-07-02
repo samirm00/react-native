@@ -1,0 +1,112 @@
+# React Native
+ios/
+android/
+# React Native, Fastlane specific
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+# It is recommended to not store the screenshots in the git repository.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots/**/*.png
+
+# Bundle artifact
+*.jsbundle
+
+# Misc
+.env
+.env.*
+.env.local
+.vscode/
+*.log
+*.log.*
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test and coverage reports
+coverage/
+*.lcov
+*.lcov.info
+nyc_output/
+
+# Cache directories
+.cache/
+jest/
+.eslintcache
+
+# TypeScript specific files
+*.tsbuildinfo
+
+# Metro bundler
+.expo
+.expo-shared
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Prettier
+.prettierignore
+.prettiercache
